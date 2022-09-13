@@ -32,6 +32,11 @@ public class Main {
         }
         System.out.println("Встречается чаще всего буква " + digitMax +  " " + max + " раз");
         System.out.println("Встречается реже всего буква " + digitMin + " " + min + " раз");
+
+        WordsChecker text1 = new WordsChecker(text);
+        System.out.println(text1.hasWord("lalala"));
+        System.out.println(text1.hasWord("amet"));
+
     }
 }
 
